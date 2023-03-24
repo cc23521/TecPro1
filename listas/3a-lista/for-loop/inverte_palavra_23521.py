@@ -8,7 +8,7 @@ Lista: 3a-lista
 Data: 27/03/2023
 """
 
-def inverteTexto(texto)
+def inverte_texto(texto)
     """
     Retorna um texto invertido.
     """

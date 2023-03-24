@@ -8,7 +8,7 @@ Lista: 3a-lista
 Data: 27/03/2023
 """
 
-def removeEspacoBranco(texto)
+def remove_espaco_branco(texto)
     """
     Retorna um texto sem espaços em branco.
     """
