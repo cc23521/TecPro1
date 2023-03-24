@@ -10,7 +10,7 @@ Data: 27/03/2023
 
 def conta_letra_a(texto):
     """
-    Retorne ocorrências da letra 'a' ou 'A' em um texto.
+    Retorna ocorrências da letra 'a' ou 'A' em um texto.
     """
 
     ocorrencias = 0

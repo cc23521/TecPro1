@@ -10,7 +10,7 @@ Data: 27/03/2023
 
 def conta_caractere(texto, char):
     """
-    Retorne o número de vezes que um caractere aparece em um texto.
+    Retorna o número de vezes que um caractere aparece em um texto.
     """
 
     ocorrencias = 0

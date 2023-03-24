@@ -10,7 +10,7 @@ Data: 27/03/2023
 
 def removeEspacoBranco(texto)
     """
-    Retorne um texto sem espaços em branco.
+    Retorna um texto sem espaços em branco.
     """
 
     texto_sem_espaco = str()

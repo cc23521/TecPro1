@@ -10,7 +10,7 @@ Data: 27/03/2023
 
 def inverteTexto(texto)
     """
-    Retorne um texto invertido.
+    Retorna um texto invertido.
     """
 
     comprimento_texto = len(texto)
