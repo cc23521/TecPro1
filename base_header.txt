@@ -1,0 +1,7 @@
+Curso: DesenvSistemas59
+Disciplina: Técnicas de Programação I
+Professora: Andréia
+#
+Aluno: Gustavo Inacio de Oliveira Cruz
+RA: 23521
+#
