@@ -4,4 +4,4 @@ Professora: Andréia
 Aluno: Gustavo Inacio de Oliveira Cruz
 RA: 23521
 Lista: 3a-lista
-Data: 27/04/2023
+Data: 27/03/2023
