@@ -8,7 +8,7 @@ Lista: 3a-lista
 Data: 27/03/2023
 """
 
-from helper_functions_23521 import inverte_texto, remove_espaco_branco
+from for_loop_functions_23521 import inverte_texto, remove_espaco_branco
 
 def get_paridade(comprimento_texto):
     """
