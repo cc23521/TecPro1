@@ -14,13 +14,9 @@ def inverte_vetor(vetor):
     indice_esquerda = 0
     indice_direita = len(vetor) - 1
     while indice_esquerda < indice_direita:
-        # Guarda valores antagonistas do vetor
         valor_esquerda = vetor[indice_esquerda]
-        valor_direita = vetor[indice_direita]
-        # Troca valores de posição
-        vetor[indice_esquerda] = valor_direita
+        vetor[indice_esquerda] = vetor[indice_direita]
         vetor[indice_direita] = valor_esquerda
-        # Atualiza índices
         indice_esquerda += 1
         indice_direita -= 1
     print("Vetor invertido:", vetor)
