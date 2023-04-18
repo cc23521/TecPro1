@@ -19,24 +19,19 @@ def maior_que_cinco(vetor):
             quantidade += 1
     return quantidade
 
-def soma_pares(vetor):
+def soma_paridade(vetor):
     """
-    Soma números pares de <vetor>.
-    """
-    soma = 0
-    for i in vetor:
-        if i % 2 == 0:
-            soma += i
-    return soma
+    Soma números pares e ímpares de <vetor>.
 
-def soma_impares(vetor):
+    Retorna:
+        soma (dicionário): soma_pares, soma_impares.
     """
-    Soma números ímpares de <vetor>.
-    """
-    soma = 0
+    soma = {'soma_pares': 0, 'soma_impares': 0}
     for i in vetor:
-        if i % 2 != 0:
-            soma += i
+        if i % 2:
+            soma['soma_impares'] += i 
+        else:
+            soma['soma_pares'] += i
     return soma
 
 def solucao():
@@ -46,7 +41,7 @@ def solucao():
     vetor = preenche_vetor()
     print("\nVetor:", vetor)
     print("Quantidade de valores maiores do que 5:", maior_que_cinco(vetor))
-    print("Soma dos números pares:", soma_pares(vetor))
-    print("Soma dos números ímpares:", soma_impares(vetor))
+    print("Soma dos números pares:", soma_paridade(vetor)['soma_pares'])
+    print("Soma dos números ímpares:", soma_paridade(vetor)['soma_impares'])
     print("Quantidade total de valores armazenados:", len(vetor))
 
